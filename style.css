@@ -295,10 +295,10 @@ header{
     header{
         padding: 11px 4%;
     }
- #menu-icon{
+    #menu-icon{
     display: initial;
- }
- header .navbar{
+    }
+    header .navbar{
     position: absolute;
     top: -500px;
     left: 0;
@@ -310,13 +310,13 @@ header{
     border-top: 2px solid var(--main-color);
     transition: 0.2s;
     text-align: left;
- }
- .navbar.active{
+    }
+    .navbar.active{
     top: 100%;
- }
- .navbar a{
+    }
+    .navbar a{
     padding: 1.5rem;
     display: block;
     color: var(--main-color);
- }
+    }
 }
